@@ -1,0 +1,24 @@
+{
+	"name": "star-engine/core",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"StarEngine\\Core\\": "src/",
+			"StarEngine\\Core\\Tests\\": "tests/",
+			"StarEngine\\Core\\Database\\Factories\\": "database/factories/",
+			"StarEngine\\Core\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"StarEngine\\Core\\Providers\\CoreServiceProvider"
+			]
+		}
+	}
+}
