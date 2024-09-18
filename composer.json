@@ -12,7 +12,8 @@
         "internachi/modular": "^2.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "star-engine/core": "*"
+        "star-engine/core": "*",
+        "star-engine/industrial-relations": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
