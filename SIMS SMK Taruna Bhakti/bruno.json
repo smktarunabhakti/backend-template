@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "[API Collection] SIMS SMK Taruna Bhakti",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
